@@ -9,8 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,220 +20,250 @@
   <body>
     
     <div class="container">
-        
-    <form class="form-inline">
-      <div class="row">
+      <h1>U.S. Standard Certificate of Live Birth</h1>
+      <a href="#">Home</a>
+      <a href="#">Information of Administrative Use</a>
+      <a href="#">Information for Medical purposes Only</a>
+      <a href="#">Mother Details</a>
+      <a href="#">Medical and Health Onformation</a>
+    
+      <div class="row back">
+        <form> 
         <div class="col-md-5">
-          <h2>Child's Details</h2>
-          <div class="form-group">
-        <label for="exampleInputName2">Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Middle Name</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="exampleInputName2">Last Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Suffix</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="time-input">Time</label><br>
-        <input type="time" class="form-control time" id="time-input" placeholder="">
-      </div><br>
-      <label for="gender">Sex</label>
-        <select id="gender" class="form-control">
-          <option>Male</option>
-          <option>Female</option>
-          <option>Others</option>
 
-       </select><br>
-       <div class="form-group">
-        <label for="facility">Facility Name(If not institution, give street and number)</label><br>
-          <input type="text" class="form-control" name="facility" id="facility">
-      </div><br>
-      <div class="form-group">
-        <label for="Location">City, Town, or Location of Birth</label><br>
-          <input type="text" class="form-control" name="location" id="Location">
-      </div><br>
-      <div class="form-group">
-        <label for="Country">Country of Birth</label><br>
-        <input type="text" name="Country-of-Birth" id="Country">
-      </div><br>
-        <h1>Father's Details</h1>
-  <p>FATHER'S CURRENT LEGAL NAME</p>
+            <h2>Child's Details</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="exampleInputName2">Name</label><br>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName2">Last Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Middle Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Suffix</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+              </div>
+            </div>
 
-      <div class="form-group">
-        <label for="exampleInputName2">Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Middle Name</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="exampleInputName2">Last Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Suffix</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
-    <input type="date" class="form-control" name="date" id="date">
-      </div><br>
-      <div class="form-group">
-        <label for="Location">Birthplace (State, Territory, or Foreign Country)</label><br>
-         <input type="text" class="form-control" name="location" id="Location">
-      </div><br>
-    <h1>Certifier Details</h1>
-    <div class="form-group">
-      <label for="certifier">Certifier's Name</label>
-    <input type="text" class="form-control" name="certifier-name" id="certifier"><br>
-    </div><br>
+            <div class="form-group">
+              <label for="time-input">Time</label><br>
+              <input type="time" class="form-control time" id="time-input" placeholder="">
+            </div><br>
+            <div class="form-group">
+              <label for="gender">Sex</label><br>
+              <select id="gender" class="form-control">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Others</option>
+            </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+              <input type="date" class="form-control" name="date" id="date">
+            </div><br>
+            <div class="form-group">
+              <label for="facility">Facility Name(If not institution, give street and number)</label><br>
+              <input type="text" class="form-control" name="facility" id="facility">
+            </div><br>
+            <div class="form-group">
+              <label for="Location">City, Town, or Location of Birth</label><br>
+              <input type="text" class="form-control" name="location" id="Location">
+            </div><br>
+            <div class="form-group">
+              <label for="Country">Country of Birth</label><br>
+              <input type="text" class="form-control" name="Country-of-Birth" id="Country">
+            </div><br>
+            <h1>Father's Details</h1>
+            <p>FATHER'S CURRENT LEGAL NAME</p>
 
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox1" value="option1"> MD
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox2" value="option2"> DO
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> HOSPITAL ADMIN
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> MN/CM
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> OTHER MIDWIFE
-    </label>
-    <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> OTHER(Specify) <br>
-    </label><br>
-    <div class="form-group">
-    <input type="text" name="other-specify" id="">
-    </div><br>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="exampleInputName2">Name</label><br>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName2">Last Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Middle Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Suffix</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+              <input type="date" class="form-control" name="date" id="date">
+            </div><br>
+            <div class="form-group">
+              <label for="Location">Birthplace (State, Territory, or Foreign Country)</label><br>
+              <input type="text" class="form-control" name="location" id="Location">
+            </div><br>
+            <h1>Certifier Details</h1>
+            <div class="form-group">
+              <label for="certifier">Certifier's Name</label><br>
+              <input type="text" class="form-control" name="certifier-name" id="certifier"><br>
+            </div><br>
 
-
-    <div class="form-group">
-        <label for="date">Date Certified(Mo/Day/Yr)</label><br>
-    <input type="date" class="form-control" name="date" id="date">
-      </div>
-      <div class="form-group">
-        <label for="date">Date Field by Register(Mo/Day/Yr)</label><br>
-    <input type="date" class="form-control" name="date" id="date">
-      </div><br>
-      <div class="form-group">
-        <label for="tele">Telephone</label><br>
-    <input type="tel" class="form-control" name="phone-no" id="tele">
-      </div><br>
-      <div class="form-group">
-        <label for="url">URL</label><br>
-    <input type="url" class="form-control" name="url" id="url">
-      </div><br>
-      <div class="form-group">
-        <label for="refer">Referring Hospital</label><br>
-    <input type="text" class="form-control" name="referring" id="refer">
-      </div><br>
-      </div>
-
-    <div col-md-5 col-md-offset-2>
-      <h1>Mother's Details</h1>
-      <p>MOTHER'S CURRENT LEGAL NAME</p>
-
-      <div class="form-group">
-        <label for="exampleInputName2">Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Middle Name</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="exampleInputName2">Last Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Suffix</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
-    <input type="date" class="form-control" name="date" id="date">
-      </div><br>
-
-      <p>Mother's Name Prior to First Marriage</p>
-
-      <div class="form-group">
-        <label for="exampleInputName2">Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Middle Name</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="exampleInputName2">Last Name</label><br>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Suffix</label><br>
-        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
-      </div><br>
-      <div class="form-group">
-        <label for="Location">Birthplace (State, Territory, or Foreign Country)</label><br>
-         <input type="text" class="form-control" name="location" id="Location">
-      </div><br>
-
-      <div class="form-group">
-        <label for="residence">Residence of Mother-State</label><br>
-      <input type="text" class="form-control" name="mother-state" id="residence">
-      </div><br>
-      <div class="form-group">
-        <label for="country">Country</label><br>
-      <input type="text" class="form-control" name="country" id="country">
-      </div><br>
-      <div class="form-group">
-        <label for="location">City, Town, or Location</label><br>
-      <input type="text" class="form-control" name="location" id="location">
-      </div><br>
-      <div class="form-group">
-        <label for="streetno">Street and Number</label><br>
-      <input type="text" class="form-control" name="street-no" id="streetno">
-      </div><br>
-      <div class="form-group">
-        <label for="apartmentno">Apartment No.</label><br>
-      <input type="text" class="form-control" name="apartment-no" id="apartmentno">
-      </div><br>
-      <div class="form-group">
-        <label for="zip">Zip Code</label><br>
-      <input type="text" class="form-control" name="zip-code" id="zip">
-      </div>
-      <div class="form-group">
-        <label for="city">Inside City Linits?</label>
-      <input type="radio" name="city-limit" id="city" value="Yes" checked>Yes
-      <input type="radio" name="city-limit" id="city" value="No">No
-      </div><br>
-
-      </div>
-
-      
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox1" value="option1"> MD
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox2" value="option2"> DO
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox3" value="option3"> HOSPITAL ADMIN
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox3" value="option3"> MN/CM
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox3" value="option3"> OTHER MIDWIFE
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="inlineCheckbox3" value="option3"> OTHER(Specify)
+            </label><br>
+            <div class="form-group">
+              <input type="text" class="form-control" name="other-specify" id="">
+            </div><br>
 
 
+            <div class="form-group">
+              <label for="date">Date Certified(Mo/Day/Yr)</label><br>
+              <input type="date" class="form-control" name="date" id="date">
+            </div>
+            <div class="form-group">
+              <label for="date">Date Field by Register(Mo/Day/Yr)</label><br>
+              <input type="date" class="form-control" name="date" id="date">
+            </div><br>
+            <div class="form-group">
+              <label for="tele">Telephone</label><br>
+              <input type="tel" class="form-control" name="phone-no" id="tele">
+            </div><br>
+            <div class="form-group">
+              <label for="url">URL</label><br>
+              <input type="url" class="form-control" name="url" id="url">
+            </div><br>
+            <div class="form-group">
+              <label for="refer">Referring Hospital</label><br>
+              <input type="text" class="form-control" name="referring" id="refer">
+            </div><br>
         </div>
 
+  <!-- Colum two start here.. -->
 
-    
+        <div class="col-md-5 col-md-offset-2">
+          <h1>Mother's Details</h1>
+          <p>MOTHER'S CURRENT LEGAL NAME</p>
+          <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="exampleInputName2">Name</label><br>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName2">Last Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Middle Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Suffix</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+              </div>
+            </div>
+          
+          <div class="form-group">
+            <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+            <input type="date" class="form-control" name="date" id="date">
+          </div><br>
 
-    
+          <p>Mother's Name Prior to First Marriage</p>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="exampleInputName2">Name</label><br>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName2">Last Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Middle Name</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">Suffix</label><br>
+                  <input type="text" class="form-control" id="exampleInputEmail2" placeholder="">
+                </div>
+              </div>
+            </div>
+          
+          <div class="form-group">
+            <label for="Location">Birthplace (State, Territory, or Foreign Country)</label><br>
+             <input type="text" class="form-control" name="location" id="Location">
+          </div><br>
+
+          <div class="form-group">
+            <label for="residence">Residence of Mother-State</label><br>
+            <input type="text" class="form-control" name="mother-state" id="residence">
+          </div><br>
+          <div class="form-group">
+            <label for="country">Country</label><br>
+            <input type="text" class="form-control" name="country" id="country">
+          </div><br>
+          <div class="form-group">
+            <label for="location">City, Town, or Location</label><br>
+            <input type="text" class="form-control" name="location" id="location">
+          </div><br>
+          <div class="form-group">
+            <label for="streetno">Street and Number</label><br>
+            <input type="text" class="form-control" name="street-no" id="streetno">
+          </div><br>
+          <div class="form-group">
+            <label for="apartmentno">Apartment No.</label><br>
+            <input type="text" class="form-control" name="apartment-no" id="apartmentno">
+          </div><br>
+          <div class="form-group">
+            <label for="zip">Zip Code</label><br>
+            <input type="text" class="form-control" name="zip-code" id="zip">
+          </div><br>
+          <div class="form-group">
+            <label for="city">Inside City Linits?</label>
+            <input type="radio" name="city-limit" id="city" value="Yes" checked>Yes
+            <input type="radio" name="city-limit" id="city" value="No">No
+          </div><br>
+
+        </div>
+        </form>
+      </div>
+    </div>
       
-      
-    </form>
 
 
 
